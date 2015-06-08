@@ -1,0 +1,130 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\.name
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* build.gradle
+* gradle\
+* gradle\wrapper\
+* gradle\wrapper\gradle-wrapper.jar
+* gradle\wrapper\gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* proguard-project.txt
+* settings.gradle
+* 坦克大战\
+* 坦克大战\build.gradle
+* 坦克大战\src\
+* 坦克大战\src\main\
+* 坦克大战\src\main\AndroidManifest.xml
+* 坦克大战\src\main\assets\
+* 坦克大战\src\main\assets\bonus.png
+* 坦克大战\src\main\assets\bore.png
+* 坦克大战\src\main\assets\bullet.png
+* 坦克大战\src\main\assets\enemy.png
+* 坦克大战\src\main\assets\explode1.png
+* 坦克大战\src\main\assets\explode2.png
+* 坦克大战\src\main\assets\flag.png
+* 坦克大战\src\main\assets\gameico.png
+* 坦克大战\src\main\assets\gameover.png
+* 坦克大战\src\main\assets\number.png
+* 坦克大战\src\main\assets\player1.png
+* 坦克大战\src\main\assets\player2.png
+* 坦克大战\src\main\assets\shield.png
+* 坦克大战\src\main\assets\tile.png
+* 坦克大战\src\main\java\
+* 坦克大战\src\main\java\com\
+* 坦克大战\src\main\java\com\tankwar\
+* 坦克大战\src\main\java\com\tankwar\App.java
+* 坦克大战\src\main\java\com\tankwar\GameActivity.java
+* 坦克大战\src\main\java\com\tankwar\GameLog.java
+* 坦克大战\src\main\java\com\tankwar\GameLuncher.java
+* 坦克大战\src\main\java\com\tankwar\GameMap.java
+* 坦克大战\src\main\java\com\tankwar\GameRes.java
+* 坦克大战\src\main\java\com\tankwar\GameSound.java
+* 坦克大战\src\main\java\com\tankwar\GameView.java
+* 坦克大战\src\main\java\com\tankwar\GameWorker.java
+* 坦克大战\src\main\java\com\tankwar\compoent\
+* 坦克大战\src\main\java\com\tankwar\compoent\Bonus.java
+* 坦克大战\src\main\java\com\tankwar\compoent\Bullet.java
+* 坦克大战\src\main\java\com\tankwar\compoent\EnemyTank.java
+* 坦克大战\src\main\java\com\tankwar\compoent\Explosion.java
+* 坦克大战\src\main\java\com\tankwar\compoent\PlayerTank.java
+* 坦克大战\src\main\java\com\tankwar\compoent\Tank.java
+* 坦克大战\src\main\java\com\tankwar\compoent\TankAI.java
+* 坦克大战\src\main\java\com\tankwar\compoent\VirtualPad.java
+* 坦克大战\src\main\java\com\tankwar\interfaces\
+* 坦克大战\src\main\java\com\tankwar\interfaces\Workable.java
+* 坦克大战\src\main\java\com\tankwar\structs\
+* 坦克大战\src\main\java\com\tankwar\structs\ASNode.java
+* 坦克大战\src\main\java\com\tankwar\structs\Tile.java
+* 坦克大战\src\main\res\
+* 坦克大战\src\main\res\drawable-hdpi\
+* 坦克大战\src\main\res\drawable-hdpi\ico.png
+* 坦克大战\src\main\res\drawable-hdpi\splash.png
+* 坦克大战\src\main\res\layout\
+* 坦克大战\src\main\res\layout\game_launcher.xml
+* 坦克大战\src\main\res\menu\
+* 坦克大战\src\main\res\menu\main.xml
+* 坦克大战\src\main\res\raw\
+* 坦克大战\src\main\res\raw\blast.mp3
+* 坦克大战\src\main\res\raw\bomb.mp3
+* 坦克大战\src\main\res\raw\bonus.mp3
+* 坦克大战\src\main\res\raw\enemy_move.mp3
+* 坦克大战\src\main\res\raw\fire.mp3
+* 坦克大战\src\main\res\raw\game_over.mp3
+* 坦克大战\src\main\res\raw\game_start.mp3
+* 坦克大战\src\main\res\raw\get_bonus.mp3
+* 坦克大战\src\main\res\raw\get_life.mp3
+* 坦克大战\src\main\res\raw\hit_wall.mp3
+* 坦克大战\src\main\res\raw\player_move.mp3
+* 坦克大战\src\main\res\values-sw600dp\
+* 坦克大战\src\main\res\values-sw600dp\dimens.xml
+* 坦克大战\src\main\res\values-sw720dp-land\
+* 坦克大战\src\main\res\values-sw720dp-land\dimens.xml
+* 坦克大战\src\main\res\values-v11\
+* 坦克大战\src\main\res\values-v11\styles.xml
+* 坦克大战\src\main\res\values-v14\
+* 坦克大战\src\main\res\values-v14\styles.xml
+* 坦克大战\src\main\res\values\
+* 坦克大战\src\main\res\values\dimens.xml
+* 坦克大战\src\main\res\values\strings.xml
+* 坦克大战\src\main\res\values\styles.xml
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => 坦克大战\src\main\AndroidManifest.xml
+* assets\ => 坦克大战\src\main\assets\
+* res\ => 坦克大战\src\main\res\
+* src\ => 坦克大战\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

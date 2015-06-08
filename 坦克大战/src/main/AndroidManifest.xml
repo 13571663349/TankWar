@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tankwar"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <application android:allowBackup="true" android:icon="@drawable/ico" android:label="@string/app_name" android:theme="@style/AppTheme" android:name="App">
+
+        <activity android:name="com.tankwar.GameLuncher" android:label="@string/app_name" android:configChanges="orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="GameActivity" android:launchMode="standard" android:screenOrientation="landscape" android:multiprocess="true" android:configChanges="orientation|screenSize">
+            <intent-filter>
+                <action android:name="START_GAME" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <service android:name="TService" android:exported="false">
+            <intent-filter>
+                <action android:name="TEST"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>
